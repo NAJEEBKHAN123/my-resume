@@ -1,11 +1,108 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>form</title>
 </head>
 <body>
+    <fieldset>
+        <legend><h1>Login Form</h1></legend>
+    <form action="">
+        <div>
+     Search: <input type="search" name="search" id="">
+     <input type="submit" value="search">
+    </div>
+     <br>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="myname" placeholder="Enter your name" id="name">
+    </div>
+<br>
+<div>
+    <label for="role">Role:</label>
+    <input type="Text" name="myRole" placeholder="Write your Role" size="" id="role">
+</div>
+<br>
+<div>
+    <label for="email">Email:</label>
+    <input type="email" name="Myemail" placeholder="Enter your email" id="email">
+</div>
+<br>
+<div>
+    <label for="password">Password:</label>
+    <input type="password" name="Mypassword" placeholder="Enter your password" id="password" maxlength="16" minlength="8">
+</div>
+<br>
+<div>
+    <label for="bouns">Bouns:</label>
+    <input type="bouns" name="Mybouns" placeholder=" Enter Bouns" id="bouns" maxlength="12">
+</div>
+<br>
+<div>
+    <label for="date">Date:</label>
+   <input type="date" name="myDate" id="date">
+</div>
+<br>
+<div>
+    <div></div>
+    <label for="eligible">Are you Eligible:</label>
+    <input type="checkbox" checked name="eligibilites" id="eligible">
+</div>
+<br>
+ Select Player: <select name="Plyers" id="">
+    <option value="Bastman">Batsman</option>
+    <option value="bowler">Bowler</option>
+    <option value="wicketkeeper">Wicketkeeper</option>
+    <option value="fielder">Fielder</option>
     
+   </select>
+</div>
+<br>
+<br>
+<div>
+    <label>Age: <input type="text" name="age" /></label>
+<br >
+<br>
+ Gender: Male <input type="Radio"  name="mygender" > Female <input type="Radio" name="mygender" >
+Other  <input type="Radio" name="mygender" >
+
+<!-- <label>Age: <input type="text" name="age" /></label>
+<br > -->
+<!-- <br>
+Gender:
+<input id="female" type="radio" name="gender"
+value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender"
+value="m">
+<label for="male">Male</label> -->
+ </div>
+ <br>
+Select Car: <select name="Car" id="">
+    <option value="Honda" selected>Honda</option>
+    <option value="Honda">Mr</option>
+    <option value="BMW">BMW</option>
+ 
+</select>
+<br>
+<br>
+<div>
+    <label for="time">Select Time</label>
+    <input type="time" name="appt" id="time">
+</div>
+<br>
+<div>
+    <label for="week">Select week</label>
+    <input type="week" name="week" id="week">
+</div>
+<br>
+ Write about yourself: <br> <br><textarea name="myText" placeholder="write your comments" id="" cols="50" rows="10"></textarea>
+ <br>
+ <br>
+<input type="submit" name="Submited to">
+ <input type="reset" name="reset">
+</fieldset>
+</form>
 </body>
 </html>
