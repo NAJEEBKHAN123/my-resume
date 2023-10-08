@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
 </head>
-<body>
+<body style="background-color: aqua">
     <fieldset>
-        <legend><h1>Login Form</h1></legend>
+        <legend><h1 style="color: red;">Login Form</h1></legend>
     <form action="">
         <div>
-     Search: <input type="search" name="search" id="">
-     <input type="submit" value="search">
+     Search: <input type="search" name="search" placeholder="search proper" id="">
+     <input type="submit" value="Search">
     </div>
      <br>
     <div>
@@ -64,8 +64,12 @@
     <label>Age: <input type="text" name="age" /></label>
 <br >
 <br>
- Gender: Male <input type="Radio"  name="mygender" > Female <input type="Radio" name="mygender" >
-Other  <input type="Radio" name="mygender" >
+ Gender: <input type="Radio" id="male" name="mygender" value="male">
+ <label for="male">Male</label>
+  <input type="Radio" id="female" name="mygender" >
+  <label for="female">Female</label>
+  <input type="Radio" id="other" name="mygender" >
+  <label for="other">Other</label>
 
 <!-- <label>Age: <input type="text" name="age" /></label>
 <br > -->
