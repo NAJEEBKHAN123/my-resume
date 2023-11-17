@@ -37,8 +37,9 @@ h1{
     height: 50px;
 }
 body{
-    background-color: rgb(220, 228, 202);
+    background-color: rgb(228, 202, 225);
     background-image: -moz-element("");
+
 }
 p{
     color: red;
@@ -51,10 +52,25 @@ p{
 .contbox{
     height: 100px;
     width: 100px;
-    border: 2px solid black;
-    background-color: red;
+    border-radius: 50%;
+    border: 20px solid #ffe66d;
+    border-top: 20px solid red;
+    border-bottom: 20px solid blue;
+    /* background-color: red; */
     margin: 15px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 150px;
+    animation: spinAnimate 1s ease-in 0s infinite normal;
 
+}
+@keyframes spinAnimate {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 #content{ 
     height: 600px;
